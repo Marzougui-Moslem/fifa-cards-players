@@ -1,38 +1,16 @@
-.App {
-  text-align: center;
+.fifa{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 7%;
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.img{
+  min-width: 238px;
+  max-width: 238px;
+  min-height: 300px;
+  max-height: 300px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App{
+  background-image:url("https://mir-s3-cdn-cf.behance.net/project_modules/hd/7ae121151890527.6314651d9cbe3.jpg");
 }
